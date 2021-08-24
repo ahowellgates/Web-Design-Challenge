@@ -1,5 +1,5 @@
 body {
-    background: #cbf1f5;
+    background: #93ade7;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -8,14 +8,14 @@ body {
 }
   
 h1 {
-    color: #71c9ce;
+    color: #040224;
     font-size: 25px;
     padding: 20px 0px 5px 5px;
     font-weight: bold;
 }
 
 h2 {
-  color: #71c9ce;
+  color: #040224;
   font-size: 20px;
   padding: 20px 0px 5px 5px;
   text-align: center;
@@ -37,7 +37,7 @@ h2 {
 }
 
 .content {
-  background:#e3fdfd;
+  background:#93ade7;
   padding: 10px 30px;
   margin-left: auto;
   margin-right: auto;
@@ -45,11 +45,11 @@ h2 {
   margin-bottom: 60px;
   border: 3px;
   border-style:double;
-  border-color: rgb(158, 211, 193);
+  border-color: rgb(197, 52, 41);
 }
 
 .table_content {
-  background:#e3fdfd;
+  background:#93ade7;
   margin: 60px 10px 60px 10px;
   border: 3px;
   border-style: solid;
@@ -57,15 +57,15 @@ h2 {
 }
 
 .navbar-custom { 
-  color: rgb(116, 186, 162);
+  color: rgb(197, 52, 41);
   font-weight: bold;
-  background: #a6e3e9;
+  background: #31497e;
 }
 
 .navbar-custom-table { 
-  color: rgb(116, 186, 162);
+  color: rgb(197, 52, 41);
   font-weight: bold;
-  background: #a6e3e9;
+  background: #31497e;
 }
 
 .table_setting {
@@ -74,29 +74,29 @@ h2 {
 
 @media (max-width: 900px) {
   .table_body {
-    background: #e3fdfd;
+    background: #93ade7;
   }
   
   .table_content {
-    background:#e3fdfd;
+    background:#93ade7;
     margin: 0px 10px 0px 10px;
     border: 0px;
   }
 
   .navbar-custom-table { 
-    color: rgb(116, 186, 162);
+    color: rgb(197, 52, 41);
     font-weight: bold;
-    background: #e3fdfd;
+    background: #93ade7;
   }
 }
 
 @media (max-width: 767px) {
   body {
-    background: #e3fdfd;
+    background: #93ade7;
   }
 
   .content {
-    background: #e3fdfd;
+    background: #93ade7;
     margin: 0px 30px 0px 30px;
     border: 0px;
   }
