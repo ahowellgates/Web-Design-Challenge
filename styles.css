@@ -1,103 +1,51 @@
-body {
-    background: hsl(221, 54%, 93%);
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    width:100%;
-    
-}
-  
-h1 {
-    color: #040224;
-    font-size: 25px;
-    padding: 20px 0px 5px 5px;
-    font-weight: bold;
+/* navbar */
+nav {
+  margin-bottom: 40px;
 }
 
-h2 {
-  color: #040224;
-  font-size: 20px;
-  padding: 20px 0px 5px 5px;
-  text-align: center;
+.navbar {
+  background-color: rgb(120, 170, 87);
 }
 
-.big_img {
+/* main body text */
+h1, h2, h3, .navbar-brand {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(4, 5, 3);
+}
+
+@media (max-width: 800px) {
+  h1 {
+      font-size: 37px;
+  }
+
+  p {
+      margin-bottom: 30px;
+  }
+}
+
+/* main body formatting */
+html, body {
+  background-color: whitesmoke;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 40px;
+  border: darkslategrey 5px solid;
+  z-index: 1;
+}
+
+/* images */
+img {
   max-width: 100%;
-  max-height: 100%;
-  padding: 15px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-.small_img {
-  max-width:49%;
-  max-height:50%;
-  padding: 15px;
-}
-
-.content {
-  background:hsl(221, 54%, 93%);
-  padding: 10px 30px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  border: 3px;
-  border-style:double;
-  border-color: rgb(197, 52, 41);
-}
-
-.table_content {
-  background:hsl(221, 54%, 93%);
-  margin: 60px 10px 60px 10px;
-  border: 3px;
-  border-style: solid;
-  border-color: rgb(197, 52, 41);
-}
-
-.navbar-custom { 
-  color: rgb(197, 52, 41);
-  font-weight: bold;
-  background: #31497e;
-}
-
-.navbar-custom-table { 
-  color: rgb(197, 52, 41);
-  font-weight: bold;
-  background: #31497e;
-}
-
-.table_setting {
-  width: 100%;
-}
-
-@media (max-width: 900px) {
-  .table_body {
-    background: hsl(221, 54%, 93%);
-  }
-  
-  .table_content {
-    background:hsl(221, 54%, 93%);
-    margin: 0px 10px 0px 10px;
-    border: 0px;
-  }
-
-  .navbar-custom-table { 
-    color: rgb(197, 52, 41);
-    font-weight: bold;
-    background: #93ade7;
-  }
-}
-
-@media (max-width: 767px) {
-  body {
-    background: hsl(221, 54%, 93%);
-  }
-
-  .content {
-    background: hsl(221, 54%, 93%);
-    margin: 0px 30px 0px 30px;
-    border: 0px;
-  }
+.currentimg {
+  border: grey 2px solid;
 }
